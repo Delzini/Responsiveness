@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <style type="text/css">
+      @import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        font-family: Poppins;
+        text-align: left;
+        font-size: 16px;
+        font-weight: "400, 500, 600, 700";
+      }
+      main {
+        background-color: hsl(246, 25%, 77%);
+        width: 60%;
+        height: 90vh;
+        margin: auto;
+        padding-top: 100px;
+      }
+      section {
+        background-color: hsl(0, 100%, 74%);
+        display: flex;
+        width: 90%;
+        height: 70vh;
+        margin: auto;
+        align-items: center;
+        align-content: center;
+        border: 0px;
+      }
+      section div {
+        margin: 0px;
+      }
+      h2 {
+        font-weight: 800;
+        font-family: "Courier New", Courier, monospace;
+        padding: 10px 50px;
+      }
+      #boxpar {
+        font-size: 10px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: hsl(249, 10%, 26%);
+        padding: 10px 50px;
+        line-height: 15px;
+      }
+      #top {
+        height: 25px;
+        width: 80%;
+        padding-top: 12px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: hsl(248, 32%, 49%);
+        margin: 10px 15px 10px 0px;
+        font-size: 10px;
+        color: white;
+        border: 0px;
+      }
+      #bottom {
+        background-color: white;
+        width: 70%;
+        height: 250px;
+        border: 0px;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .forminput {
+        height: 22px;
+        width: 90%;
+        padding-top: 12px;
+        border-radius: 5px;
+        text-align: left;
+        margin-bottom: 10px;
+        padding: 3px;
+        font-size: 10px;
+        color: grey;
+      }
+      .click {
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        height: 34px;
+        width: 93%;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 12px;
+        border: 0px;
+      }
+      #terms {
+        font-size: 7px;
+        text-align: center;
+        margin-top: 15px;
+      }
+      @media screen and (min-width: 1440px) {
+      }
+      @media screen and (max-width: 375px) {
+        section {
+          background-color: hsl(0, 100%, 74%);
+          display: flex;
+          flex-direction: column;
+          width: 90%;
+          height: 70vh;
+          margin: auto;
+          align-items: center;
+          align-content: center;
+          border: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div>
+          <h2>Learn to code by watching others</h2>
+          <p id="boxpar">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div>
+          <div id="top">Try it free 7 days then $20/mo. thereafter</div>
+          <form action="" id="bottom">
+            <input class="forminput" type="text" placeholder="First Name" />
+            <input class="forminput" type="text" placeholder="Last Name" />
+            <input class="forminput" type="email" placeholder="Email Address" />
+            <input class="forminput" type="password" placeholder="Password" />
+            <button class="click" type="submit">CLAIM YOUR FREE TRIAL</button>
+            <p id="terms">
+              By clicking the button, you are agreeing to our
+              <a href="">Terms and Services</a>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
